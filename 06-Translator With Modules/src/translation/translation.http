@@ -1,0 +1,16 @@
+### get trasnlations
+GET http://localhost:3000/translation?page=1&limit=10
+### get one translation
+GET http://localhost:3000/translation/book
+### post translation
+POST http://localhost:3000/translation
+Content-Type: application/json
+
+{
+    "phrase":"User",
+    "translate":"کاربر",
+    "fromLang":"en",
+    "toLang":"fa"
+}
+### delete translation
+DELETE http://localhost:3000/translation/books
