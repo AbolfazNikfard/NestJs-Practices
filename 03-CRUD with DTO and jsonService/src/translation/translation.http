@@ -1,0 +1,60 @@
+### get all translation
+GET http://localhost:3000/translation
+### get all translation
+GET http://localhost:3000/translation/کتاب
+### post translation
+POST http://localhost:3000/translation
+Content-Type: application/json
+
+{
+    "phrase": "User",
+    "translation": "کاربر",
+    "fromLang": "en",
+    "toLang": "fa"
+}
+### post translation
+POST http://localhost:3000/translation
+Content-Type: application/json
+
+{
+    "phrase": "کتاب",
+    "translation": "book",
+    "fromLang": "fa",
+    "toLang": "en"
+}
+### post translation
+POST http://localhost:3000/translation
+Content-Type: application/json
+
+{
+    "phrase": "programmer",
+    "translation": "برنامه نویس",
+    "fromLang": "en",
+    "toLang": "fa"
+}
+### post translation
+POST http://localhost:3000/translation
+Content-Type: application/json
+
+{
+    "phrase": "language",
+    "translation": "زبان",
+    "fromLang": "en",
+    "toLang": "fa"
+}
+### put translation
+PUT http://localhost:3000/translation
+Content-Type: application/json
+
+{
+    "id": "dd5350b5825cb109dd2603b4791c233e",
+    "phrase": "کتاب",
+    "translation": "Book"
+}
+### delete translation
+DELETE http://localhost:3000/translation
+Content-Type: application/json
+
+{
+    "id":"dd5350b5825cb109dd2603b4791c233e"
+}
