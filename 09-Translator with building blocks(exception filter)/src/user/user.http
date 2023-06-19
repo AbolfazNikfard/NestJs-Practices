@@ -1,0 +1,21 @@
+###post user
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "username":"Ae",
+    "password":"Ab@12345"
+}
+### get user
+GET http://localhost:3000/user/Aa
+### get paginated users
+GET http://localhost:3000/user?page=1&limit=2
+### delete User
+DELETE http://localhost:3000/user/Aa
+### patch User
+PATCH http://localhost:3000/user/Ad
+Content-Type: application/json
+
+{
+    "password":"Aa@12345"
+}

@@ -1,0 +1,10 @@
+### post configuration
+POST http://localhost:3000/configuration
+Content-Type: application/json
+
+{
+    "key":"OPENAI_API_KEY",
+    "value":"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"
+}
+### get Config
+GET http://localhost:3000/configuration

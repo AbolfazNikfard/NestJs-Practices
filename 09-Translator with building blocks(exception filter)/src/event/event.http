@@ -1,0 +1,36 @@
+###post Like event
+POST http://localhost:3000/event/like
+Content-Type: application/json
+
+{
+    "userName":"Ad",
+    "translatedPhrase":"programmer",
+    "type":"like"
+}
+###post Like event
+POST http://localhost:3000/event/like
+Content-Type: application/json
+
+{
+    "userName":"Ae",
+    "translatedPhrase":"User",
+    "type":"like"
+}
+###post Like event
+POST http://localhost:3000/event/like
+Content-Type: application/json
+
+{
+    "userName":"Ac",
+    "translatedPhrase":"book",
+    "type":"like"
+}
+
+###delete Like event
+DELETE http://localhost:3000/event/like
+Content-Type: application/json
+
+{
+    "userName":"Ac",
+    "translatedPhrase":"programmer"
+}
