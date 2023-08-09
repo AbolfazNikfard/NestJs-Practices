@@ -1,0 +1,111 @@
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/2-IranYekan/iranyekanwebregular.eot");
+    src: url("../fonts/2-IranYekan/iranyekanwebregular.eot?#iefix") format("embedded-opentype"), url("../fonts/2-IranYekan/iranyekanwebregular.woff") format("woff"), url("../fonts/2-IranYekan/iranyekanwebregular.woff") format("woff"), url("../fonts/2-IranYekan/iranyekanwebregular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: iranyekanwebbold;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/2-IranYekan/iranyekanwebbold.eot");
+    src: url("../fonts/2-IranYekan/iranyekanwebbold.eot?#iefix") format("embedded-opentype"), url("../fonts/2-IranYekan/iranyekanwebbold.woff2") format("woff2"), url("../fonts/2-IranYekan/iranyekanwebbold.woff") format("woff"), url("../fonts/2-IranYekan/iranyekanwebbold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: iranyekan, "Poppins, sans-serif";
+    src: url("../fonts/poppins/Poppins-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iranyekan, "Poppins, sans-serif";
+    src: url("../fonts/poppins/Poppins-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iranyekan, "Poppins, sans-serif";
+    src: url("../fonts/poppins/Poppins-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iranyekan, "Poppins, sans-serif";
+    src: url("../fonts/poppins/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iranyekan, "Poppins, sans-serif";
+    src: url("../fonts/poppins/Poppins-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iranyekan, "Poppins, sans-serif";
+    src: url("../fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iranyekan, "Poppins, sans-serif";
+    src: url("../fonts/poppins/Poppins-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iranyekan, "Poppins, sans-serif";
+    src: url("../fonts/poppins/Poppins-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iranyekan, "Poppins, sans-serif";
+    src: url("../fonts/poppins/Poppins-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iranyekanwebbold, "Fjalla One";
+    src: url("../fonts/fjalla/FjallaOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: iranyekanwebbold, "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iranyekanwebbold, "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iranyekanwebbold, "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iranyekanwebbold, "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-ExtraBold.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
